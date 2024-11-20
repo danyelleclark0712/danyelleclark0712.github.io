@@ -1,0 +1,105 @@
+/* Set the font for the entire site */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #158194;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #158194;
+}
+
+/* Header styles */
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+/* Aside styles */
+aside {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    background: #158194;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Float and Positioning */
+img {
+    img {
+        max-width: 100%;
+        height: auto; /* Maintains aspect ratio */
+        display: block;
+        margin: 0 auto; /* Centers the image */
+        object-fit: contain; /* Prevents stretching */
+      }
+      
+      
+}
+
+/* Absolute and Relative Positioning Example */
+.relative-position {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-position {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.main__article {
+    scroll-margin-top: 6.5rem;
+    margin: var(--MARGIN);
+}
+
+.main__article:first-child {
+    margin-top: 1em;
+}
+
+.main__article:last-child {
+    min-height: calc(100vh - 20rem);
+}
