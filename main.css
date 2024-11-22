@@ -6,6 +6,7 @@ body {
 /* Navbar styles */
 .navbar {
     background-color: #158194;
+    justify-content:center
 }
 
 .nav-link {
