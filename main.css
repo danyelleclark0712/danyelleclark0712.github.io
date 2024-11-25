@@ -76,11 +76,6 @@ aside h2 {
     margin-top: 0;
 }
 
-/* Footer styles */
-footer {
- 
-    
-}
 
 /* Float and Positioning */
     img {
@@ -90,9 +85,6 @@ footer {
         margin: 0 auto; 
         object-fit: contain; 
       }
-      
-      
-}
 
 /* Absolute and Relative Positioning Example */
 .relative-position {
