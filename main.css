@@ -1,6 +1,24 @@
 /* Set the font for the entire site */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
     font-family: Arial, sans-serif;
+}
+
+footer {
+    flex-shrink: 0; 
+    background: #158194;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
 }
 
 /* Navbar styles */
@@ -60,10 +78,8 @@ aside h2 {
 
 /* Footer styles */
 footer {
-    background: #158194;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+ 
+    
 }
 
 /* Float and Positioning */
