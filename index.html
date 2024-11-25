@@ -109,31 +109,35 @@
         </ul>
     </aside>
 
-            <p><h5>Join Our Newsletter</h5></p>
-        <form onsubmit="return validateEmail();">
+<div class="Illinois__newsletter">
+    <h2>Join Our Newsletter</h2>
+    <form onsubmit="return validateEmail();">
+        <div class="form-group">
             <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName" placeholder="Enter your first name">
-            <br>
-          
+        </div>
+        <div class="form-group">
             <label for="lastName">Last Name:</label>
             <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
-            <br>
-          
+        </div>
+        <div class="form-group">
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" placeholder="Enter your email address">
-            <br>
-          
+        </div>
+        <div class="form-group">
             <label for="confirmEmail">Confirm Email:</label>
             <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email address">
-            <br>
-          
+        </div>
+        <div class="form-group">
             <label for="question">Question:</label>
             <textarea id="question" name="question" rows="5" cols="30"></textarea>
-            <br>
-          
-            <button class="contact__button" type="Submit">Send</button>
+        </div>
+        <div class="button-group">
+            <button class="contact__button" type="submit">Send</button>
             <button class="contact__button" type="reset">Reset</button>
-          </form>
+        </div>
+    </form>
+</div>
 
         (Source:<cite><a href="https://washingtonco.illinois.gov/illinois-history/">Illinois History</a></cite>)
     <footer>
