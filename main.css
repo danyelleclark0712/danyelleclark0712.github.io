@@ -121,17 +121,27 @@ footer {
 }
 
 /*NEWSLETTER  */
-.Illinois__newsletter {
+.newsletter {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 5px;
 }
 
 .form-group {
-    margin-bottom: 10px;
-    float: left;
-    width: 48%; 
-    margin-right: 2%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 .button-group {
@@ -139,7 +149,7 @@ footer {
     justify-content: space-between;
 }
 
-.contact__button {
+.button-group button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
