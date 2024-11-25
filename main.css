@@ -67,13 +67,12 @@ footer {
 }
 
 /* Float and Positioning */
-img {
     img {
         max-width: 100%;
-        height: auto; /* Maintains aspect ratio */
+        height: auto; 
         display: block;
-        margin: 0 auto; /* Centers the image */
-        object-fit: contain; /* Prevents stretching */
+        margin: 0 auto; 
+        object-fit: contain; 
       }
       
       
@@ -103,4 +102,32 @@ img {
 
 .main__article:last-child {
     min-height: calc(100vh - 20rem);
+}
+
+/*NEWSLETTER  */
+.Illinois__newsletter {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    float: left;
+    width: 48%; 
+    margin-right: 2%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
