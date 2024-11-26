@@ -6,6 +6,19 @@ html, body {
     padding: 0;
 }
 
+.container {
+   
+}
+
+.image-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.content {
+   
+}
+
 body {
     display: flex;
     flex-direction: column;
