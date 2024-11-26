@@ -118,7 +118,7 @@ th  
 
 .center {
     float:right;
-    color:white;
+    text-transform: capitalize;
 }
 
 
