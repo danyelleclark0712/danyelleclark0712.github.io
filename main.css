@@ -103,8 +103,8 @@ th  
         object-fit: contain; 
       }
 
-.cited-info {
-  float: left;
+.cited__info {
+  float: right;
   
 }
 
