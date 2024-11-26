@@ -103,6 +103,11 @@ th  
         object-fit: contain; 
       }
 
+..cited-info {
+  float: right;
+  
+}
+
 /* Absolute and Relative Positioning Example */
 .relative-position {
     position: relative;
