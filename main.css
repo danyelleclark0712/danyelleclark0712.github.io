@@ -129,10 +129,6 @@ th  
     min-height: calc(100vh - 20rem);
 }
 
-.cited__info {
-    float: up;
-}
-
 /*NEWSLETTER  */
 .newsletter {
     background-color: #f0f0f0;
