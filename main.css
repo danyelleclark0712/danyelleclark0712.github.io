@@ -116,6 +116,10 @@ th  
     left: 50px;
 }
 
+.center {
+    float:right;
+}
+
 .main__article {
     scroll-margin-top: 6.5rem;
     margin: var(--MARGIN);
